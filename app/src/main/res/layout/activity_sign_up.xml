@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mydell.taskit.SignUp">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:hint="email"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:hint="password"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup user"
+        android:id="@+id/button3"
+        android:background="#005582"
+        android:textColor="#ffffff"
+        android:onClick="signupuse"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="49dp"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:hint="name"
+
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Already signed up?"
+        android:id="@+id/textView3"
+        android:onClick="login"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#005582"
+        android:layout_marginBottom="76dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

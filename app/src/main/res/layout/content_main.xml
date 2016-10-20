@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+
+    android:descendantFocusability="blocksDescendants"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mydell.taskit.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/lv1"
+        android:layout_alignParentStart="true"
+        android:divider="#ffffff"
+        android:background="#2188d1"
+        android:dividerHeight="1dp"
+        android:clickable="true"/>
+
+</RelativeLayout>
+

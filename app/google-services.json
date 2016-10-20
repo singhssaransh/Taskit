@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "34501950731",
+    "firebase_url": "https://task-it-b48d0.firebaseio.com",
+    "project_id": "task-it-b48d0",
+    "storage_bucket": "task-it-b48d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34501950731:android:1efd714e26030808",
+        "android_client_info": {
+          "package_name": "com.example.mydell.taskit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34501950731-0cqomh1toup7eh19o6gfphv5jgmu2u4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBbFhFN5uI6UH-XtiPdY7XeUSY4NXgYtQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

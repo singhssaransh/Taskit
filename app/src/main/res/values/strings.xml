@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Taskit</string>
+    <string name="action_settings">Settings</string>
+    <string name="searchable">Searchable</string>
+    <string name="menu_search">Seach</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_templates">templates</string>
+</resources>
